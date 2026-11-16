@@ -1,0 +1,15 @@
+# Only application sources and build inputs belong in the build context.
+**
+!Dockerfile
+!Cargo.toml
+!Cargo.lock
+!rust-toolchain.toml
+!LICENSE
+!src/
+!src/**
+!migrations/
+!migrations/**
+!public/
+!public/**
+!tests/
+!tests/**
